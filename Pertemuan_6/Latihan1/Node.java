@@ -1,13 +1,15 @@
-package pertemuan_5.latihan1;
+package Pertemuan6.Latihan1;
 
 public class Node {
     public int data;
     public Node next;
 
+    //** Inisialisasi atribut node */
     public Node(int data) {
         this.data = data;
     }
 
+    //** Setter & Getter */
     public int getData() {
         return data;
     }
@@ -23,4 +25,9 @@ public class Node {
     public void setNext(Node next) {
         this.next = next;
     }
+
+    public int getNilai() {
+        return data;
+    }
+
 }
